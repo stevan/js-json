@@ -1,9 +1,10 @@
 package JS::JSON;
 
+use 5.006;
 use strict;
 use warnings;
 
-our $VERSION   = '0.01';
+our $VERSION   = '0.02';
 our $AUTHORITY = 'cpan:STEVAN';
 
 1;
@@ -12,7 +13,7 @@ __END__
 
 =head1 NAME
 
-JS-JSON - JSON module for JS
+JS::JSON - JSON module for JS
 
 =head1 SYNOPSIS
 

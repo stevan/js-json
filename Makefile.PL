@@ -1,13 +1,10 @@
-
 use strict;
 use warnings;
 use inc::Module::Install;
 
-name     'JS-JSON';
-abstract 'JSON code from json.org for JS-CPAN';
-version  '0.01';
 license  'Public Domain';
+all_from 'lib/JS/JSON.pm';
 
-requires 'JS';
+requires 'JS' => '0.17';
 
 WriteAll;
