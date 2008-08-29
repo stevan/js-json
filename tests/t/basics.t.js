@@ -5,7 +5,6 @@ var t = new Test.JSON();
 t.plan(4);
 
 var have1 = JSON.parse('["foo", "bar"]');
-console.log(have1);
 var want1 = ["foo", "bar"];
 
 // t.is_deeply(have1, want1, 'JSON.parse(array) works');
